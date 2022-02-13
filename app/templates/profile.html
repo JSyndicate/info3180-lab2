@@ -1,0 +1,39 @@
+{% extends 'base.html' %} 
+{% block css %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/app')}}"/>
+{% endblock% }
+
+{% block main %} 
+<div class="portfolio">
+    <section class="tophalf">
+        <div id="image">
+            <img id="Dp" src="{{url_for('static', filename=------------)}}">
+        </div>
+        <h1 class="name">Jevan Williamson</h1>
+        <h2>@jevwilliamson</h2>
+        <h2>Kingston, Jamaica</h2>
+        <h2>{{todaysdate}}</h2>
+    </section>
+    <section class="bottomhalf">
+        <p>Hi! My name is Jevan. I consider myself a really intelligent and athletic guy but I am just unmotivated to do certain things, however, when something is to get done I always delivery 100%.</p>
+        <section class="inner-bottomhalf">
+            <div class="info">
+                <h3>5</h3>
+                <strong>Posts</strong>
+            </div>
+            
+            <div class="info">
+                <h3>138</h3>
+                <strong>Following</strong>
+            </div>
+
+            <div class="info">
+                <h3>157</h3>
+                <strong>Followers</strong>
+            </div>
+
+        </section>
+        <button>Follow</button>
+    </section>
+</div>
+{% endblock %}

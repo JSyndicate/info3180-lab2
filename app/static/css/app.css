@@ -1,3 +1,14 @@
 body {
     padding-top: 5rem;
 }
+
+div.portfolio {
+    border:10px solid green;
+    border-radius: 20em;
+    display: flex;
+
+}
+
+section:tophalf{
+    background-color: aqua;
+}
