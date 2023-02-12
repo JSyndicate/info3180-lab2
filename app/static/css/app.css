@@ -1,14 +1,5 @@
 body {
-    padding-top: 5rem;
+    font-size: 20px;
+    color: rgb(47, 255, 0);
 }
 
-div.portfolio {
-    border:10px solid green;
-    border-radius: 20em;
-    display: flex;
-
-}
-
-section:tophalf{
-    background-color: aqua;
-}

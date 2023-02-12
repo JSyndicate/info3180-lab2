@@ -1,39 +1,56 @@
-{% extends 'base.html' %} 
+{% extends 'base.html' %}
 {% block css %}
-<link rel="stylesheet" href="{{url_for('static', filename='css/app')}}"/>
-{% endblock% }
+<link rel="stylesheet" href="{{ url_for('static', filename = 'css/app.css') }}"/>
+{% endblock %}
 
-{% block main %} 
-<div class="portfolio">
-    <section class="tophalf">
+
+{% block main %}
+
+<div class="profile">
+    <section class="top">
         <div id="image">
-            <img id="Dp" src="{{url_for('static', filename=------------)}}">
+            <img class="pic" src="{{url_for('static', filename='./apocalyse_scene_4k-1600*900.jpg')}}">
         </div>
         <h1 class="name">Jevan Williamson</h1>
         <h2>@jevwilliamson</h2>
-        <h2>Kingston, Jamaica</h2>
-        <h2>{{todaysdate}}</h2>
+        <h2>Portmore, St. Catherine</h2>
+        <h2>{{todays date}}</h2>
     </section>
-    <section class="bottomhalf">
-        <p>Hi! My name is Jevan. I consider myself a really intelligent and athletic guy but I am just unmotivated to do certain things, however, when something is to get done I always delivery 100%.</p>
-        <section class="inner-bottomhalf">
+    <section class="middle">
+        <p>Hi I'm Paul. I do Web Development. I like many things and I also dislike many things.</p>
+        <section class="bottom">
             <div class="info">
-                <h3>5</h3>
+                <h3>7</h3>
                 <strong>Posts</strong>
             </div>
-            
             <div class="info">
-                <h3>138</h3>
+                <h3>100</h3>
                 <strong>Following</strong>
             </div>
-
             <div class="info">
-                <h3>157</h3>
+                <h3>250</h3>
                 <strong>Followers</strong>
             </div>
-
         </section>
         <button>Follow</button>
-    </section>
-</div>
+    <section>
+<div>
+
 {% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
